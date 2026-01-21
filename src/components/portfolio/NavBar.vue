@@ -115,7 +115,7 @@ defineProps({
         }
 
         .links {
-            display: none; /* em um app real teriamos um menu hamburguer aqui */
+            display: none; 
         }
     }
 }

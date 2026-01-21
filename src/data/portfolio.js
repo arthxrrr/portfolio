@@ -14,27 +14,27 @@ export const projects = [
         id: 1,
         title: 'Portfólio Pessoal',
         description: 'Portfólio pessoal desenvolvido com Vue 3 (Composition API), Three.js e GSAP. Utiliza 3D em tempo real, animações coordenadas, SCSS e smooth scroll com Lenis.',
-        image: '/projects/1.png',
-        link: 'https://example.com',
-        repo: 'https://github.com',
+        image: 'projects/portfolio.png',
+        link: 'https://arthxrrr.github.io/portfolio/',
+        repo: 'https://github.com/arthxrrr/portfolio',
         tags: ['Vue', 'Three.js', 'GSAP']
     },
     {
         id: 2,
         title: 'Dashboard Financeiro',
         description: 'Desenvolvimento de aplicação web financeira utilizando React, Vite, Tailwind CSS e Supabase Implementação de autenticação segura, gerenciamento de estado global e integração com banco PostgreSQL Criação de dashboard interativo com visualização de dados (Chart.js).',
-        image: '/projects/5.png',
-        link: 'https://example.com',
-        repo: 'https://github.com',
+        image: 'projects/dashboard.png',
+        link: 'https://arthxrrr.github.io/webfinanceiro-react/',
+        repo: 'https://github.com/arthxrrr/webfinanceiro-react',
         tags: ['React', 'Chart.js', 'Supabase']
     },
     {
         id: 3,
         title: 'Api de Clima',
         description: 'Desenvolvimento de aplicação web de previsão do tempo utilizando Vue 3, Vite, Tailwind CSS e Pinia. Implementação de visualização de dados climáticos com gráficos interativos usando Chart.js e PWA com Vite PWA.',
-        image: '/projects/7.png',
-        link: 'https://example.com',
-        repo: 'https://github.com',
+        image: 'projects/clima.png',
+        link: 'https://arthxrrr.github.io/apiclima-vue/',
+        repo: 'https://github.com/arthxrrr/apiclima-vue',
         tags: ['Vue', 'Tailwind CSS', 'PWA']
     }
 ]
@@ -56,5 +56,5 @@ export const personalInfo = {
     name: 'Arthur Henrique',
     email: 'arthurhenriquerech@gmail.com',
     location: 'Joinville, Santa Catarina',
-    resumeUrl: '/projects/curriculo.pdf'
+    resumeUrl: 'projects/curriculo.pdf'
 }
